@@ -64,9 +64,12 @@
 ---
 
 ## 📦 Project Structure
-* `src/main.cpp` — Logic & PWM generation.
-* `src/tvbgcodes.h` — Compressed IR code database.
-* `platformio.ini` — Build environment settings.
+
+* `src/main.cpp` — Main logic, IR attack sequences, and Jammer PWM generation.
+* `include/tvbgcodes.h` — Compressed database of global IR power codes.
+* `merge_bin.py` — Python script for automatic factory binary merging.
+* `platformio.ini` — Build environment settings and hardware configuration.
+* `esptool.exe` — Binary utility for firmware processing and flashing.
 
 ---
 
