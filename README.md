@@ -17,8 +17,11 @@
 * **Serial Feedback**: Real-time progress monitoring via 115200 baud.
 
 ### 🔌 Pinout
-* **IR LED**: GPIO 6 (Requires a transistor like 2N2222).
-* **Button**: GPIO 5 (External) or GPIO 9 (Internal Boot button).
+| component | pin  ESP32-C3 | note |
+|-----------|--------------|------------|
+| **IR LED** | GPIO 6 | Requires a transistor like 2N2222! |
+| **Button** | GPIO 5 | none |
+
 
 ### 🚀 Quick Start
 1. Open project in **VS Code** with **PlatformIO**.
@@ -40,7 +43,7 @@
 | Компонент | Пин ESP32-C3 | Примечание |
 |-----------|--------------|------------|
 | **IR LED** | GPIO 6 | Подключать только через транзистор! |
-| **Кнопка** | GPIO 5 / 9 | GPIO 9 — это встроенная кнопка BOOT. |
+| **Кнопка** | GPIO 5 | Нету |
 
 ### 🛠 Как прошить
 1. Открой папку с проектом в **VS Code** (должен быть установлен PlatformIO).
@@ -63,4 +66,4 @@
 
 ---
 
-**Developed as part of the SpecOS Ecosystem.**
+
